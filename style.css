@@ -172,6 +172,34 @@ body {
   }
 }
 
+/* Quote Main Style */
+.quote {
+  width: 100%;
+  height: 60vh;
+  background: #c9caca;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 8%;
+}
+
+.quote .quote_text {
+  width: 55%;
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote .quote_from {
+  margin-top: 2rem;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+}
+
 /* Footer Style */
 .footer {
   background-color: #1f2937;
